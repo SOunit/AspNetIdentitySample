@@ -1,0 +1,13 @@
+﻿@model List<AspNetIdentitySample.Models.Brand>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var item in Model)
+{
+    <p>@item.BrandName</p>
+}
+
