@@ -146,6 +146,8 @@
     <Compile Include="IdentityMigrations\Configuration.cs" />
     <Compile Include="Identity\ApplicationDbContext.cs" />
     <Compile Include="Identity\ApplicationUser.cs" />
+    <Compile Include="Identity\ApplicationUserManager.cs" />
+    <Compile Include="Identity\ApplicationUserStore.cs" />
     <Compile Include="Models\Brand.cs" />
     <Compile Include="Models\CompanyDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
